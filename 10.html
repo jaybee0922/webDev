@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>myPracticeWebsite</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      height: 100vh;
+    }
+
+    .main-page {
+      display: flex;
+      flex-direction: column;
+      margin: 3rem;
+    }
+
+    .logo>img {
+      margin-top: 1.2rem;
+    }
+
+    .header {
+      margin-top: 2.4rem;
+      font-weight: bolder;
+      font-family: arial;
+      font-size: 2.5rem;
+      line-height: 7rem;
+    }
+
+    /**  
+      ===============holder of all section including images==================
+      */
+    .section {
+      display: flex;
+      flex-direction: row;
+    }
+
+    /**=======first image=====================*/
+    .first-image {
+      display: flex;
+    }
+
+    .first-image>img {
+      width: 300px;
+      height: 230px;
+      margin-top: 1rem;
+    }
+
+    .first-section-header {
+      margin-left: 30px;
+      font-weight: 800;
+      font-family: arial;
+      margin-top: 40px;
+    }
+
+    .first-image>.first-section-paragraph {
+      display: flex;
+      position: absolute;
+      margin-top: 80px;
+      width: 200px;
+      margin-left: 330px;
+      letter-spacing: 1px;
+      text-align: justify;
+      font-family: arial;
+
+      /* text-align: justify; */
+    }
+
+    .second-image {
+      display: flex;
+    }
+
+    .second-image>img {
+      width: 300px;
+      height: 230px;
+      margin-top: 1rem;
+      margin-left: 20rem;
+    }
+
+    .second-section-header {
+      margin-left: 30px;
+      font-weight: 800;
+      font-family: arial;
+      margin-top: 40px;
+      margin-left: 2rem;
+    }
+
+    .second-image>.second-section-paragraph {
+      display: flex;
+      position: absolute;
+      margin-top: 80px;
+      width: 200px;
+      margin-left: 330px;
+      letter-spacing: 1px;
+      text-align: justify;
+      font-family: arial;
+      margin-left: 41rem;
+    }
+
+    .main-footer {
+      margin-top: auto;
+      text-align: right;
+      padding: 5rem;
+      color: midnightblue;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main-page">
+    <div class="logo">
+      <img src="/images/logo.png" alt="" />
+    </div>
+    <div class="header">
+      <h1>
+        We are a Creative <br />
+        Design Agency
+      </h1>
+    </div>
+    <div class="section">
+      <div class="first-image">
+        <img src="/images/beautiful.jpg" alt="flower in river" />
+        <h3 class="first-section-header">Beauty</h3>
+        <p class="first-section-paragraph">
+          We strive to create the most beautiful websites for all your needs.
+          Working closely with you to design and develop an amazing website
+          for your business.
+        </p>
+      </div>
+
+      <div class="second-image">
+        <img src="/images/construction.jpg" alt="construction" />
+        <h3 class="second-section-header">Construction</h3>
+        <p class="second-section-paragraph">
+          Built by our team of professional developers, we ensure the most
+          rigourous and modern websites. Built from scratch using HTML and
+          CSS. Only the best for you.
+        </p>
+      </div>
+    </div>
+    <div class="main-footer">
+      <footer>Created by dev. Jeb</footer>
+    </div>
+  </div>
+
+</body>
+
+</html>
